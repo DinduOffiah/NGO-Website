@@ -1,0 +1,62 @@
+.navbar-brand-custom {
+    margin-left: 10%; 
+}
+
+.navbar-nav-custom {
+    margin-right: 10%; 
+}
+
+/* Sticky + shadow */
+.custom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+/* Brand styling */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* Nav links */
+.nav-link {
+    position: relative;
+    transition: all 0.3s ease;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Smooth underline hover */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #ffc107;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Hover color */
+.nav-link:hover {
+    color: orange !important;
+}
+
+/* Donate button styling */
+.donate-btn {
+    border-radius: 30px;
+    padding: 8px 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+
