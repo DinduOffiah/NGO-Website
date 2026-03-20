@@ -59,4 +59,8 @@
     transition: all 0.3s ease;
 }
 
-
+.slogan{
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
