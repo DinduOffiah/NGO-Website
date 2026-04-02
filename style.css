@@ -122,3 +122,94 @@
     font-size: 14px;
     color: #aaa;
 }
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ),
+    url('https://images.unsplash.com/photo-1523240795612-9a054b0db644');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Title */
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Subtitle */
+.hero-subtitle {
+    font-size: 18px;
+    color: #ddd;
+    max-width: 500px;
+}
+
+/* Buttons */
+.hero-btn {
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255, 193, 7, 0.4);
+}
+
+.hero-btn-outline {
+    border-radius: 30px;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
+}
+
+.hero-btn-outline:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Image */
+.hero-image {
+    max-height: 400px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.impact-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.impact-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.counter {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.impact-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-section {
+        text-align: center;
+        height: auto;
+        padding: 80px 0;
+    }
+}
