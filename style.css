@@ -730,6 +730,58 @@
   font-weight: 700;
 }
 
+/* HERO */
+.support-hero {
+  background-color:  #3f87f4;
+  padding: 100px 20px;
+}
+
+.support-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+/* CARDS */
+.support-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-5px);
+}
+
+/* BANK */
+.bank-details p {
+  margin-bottom: 8px;
+}
+
+/* BUTTONS */
+.copy-btn {
+  border-radius: 30px;
+  margin-top: 15px;
+}
+
+.donate-now {
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.donate-now:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255,193,7,0.4);
+}
+
+/* CTA */
+.support-cta {
+  background-color: #3e3636;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero-title {
