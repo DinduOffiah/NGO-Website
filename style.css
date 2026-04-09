@@ -494,6 +494,16 @@
   line-height: 1.8;
 }
 
+.program-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.program-outro, .program-intro{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero-title {
