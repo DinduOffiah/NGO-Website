@@ -360,7 +360,7 @@
 
 /* HERO */
 .about-hero {
-  background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+  background-color:  #3f87f4;
   padding: 100px 20px;
 }
 
@@ -437,6 +437,63 @@
   color: #666;
 }
 
+/* HERO */
+.programs-hero {
+  background-color:  #3f87f4;
+  padding: 100px 20px;
+}
+
+.programs-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.programs-hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* PROGRAM ROW */
+.program-row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.program-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* IMAGE */
+.program-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  transition: transform 0.4s ease;
+}
+
+.program-image img:hover {
+  transform: scale(1.05);
+}
+
+/* CONTENT */
+.program-content {
+  flex: 1;
+}
+
+.program-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.program-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero-title {
@@ -448,4 +505,13 @@
         height: auto;
         padding: 80px 0;
     }
+
+    .program-row {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .program-image img {
+    max-width: 100%;
+  }
 }
